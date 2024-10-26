@@ -43,7 +43,24 @@ Validation of the proposed system is conducted through simulations using OpenCV 
 - [Science.org: SciRobotics](https://www.science.org/doi/10.1126/scirobotics.adn4722)
 
 ## Repository Structure
-```/Spacecraft-Autonomous-Debris-Avoidance-System │ ├── /src │ ├── image_processing.py │ ├── ai_models.py │ ├── simulation.py │ └── utils.py │ ├── /data │ ├── training_data/ │ └── test_data/ │ ├── /docs │ └── project_report.pdf │ └── README.md```
+```
+ /Spacecraft-Autonomous-Debris-Avoidance-System
+│
+├── /src
+│   ├── image_processing.py
+│   ├── ai_models.py
+│   ├── simulation.py
+│   └── utils.py
+│
+├── /data
+│   ├── training_data/
+│   └── test_data/
+│
+├── /docs
+│   └── project_report.pdf
+│
+└── README.md
+```
 
 ## Installation and Usage
 To run the simulations and models, follow these steps:
