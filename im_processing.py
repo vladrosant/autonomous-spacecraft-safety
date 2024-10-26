@@ -3,6 +3,8 @@ import numpy as np
 
 img = cv2.imread('images/space_debris_sample.jpg', 0)
 
+blurred_img = cv2.GaussianBlur(img, (5, 5), 0)
+
 edges = cv2.Canny(img, 100, 200)
 
 cv2.imwrite('edges_output.jpg', edges)
