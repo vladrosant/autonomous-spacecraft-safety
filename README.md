@@ -9,7 +9,7 @@
 ## Introduction
 As space exploration and travel rise, there is a growing need for advanced, efficient, and foolproof software to enhance the safety of both manned and unmanned missions. Existing Debris Collision Avoidance Systems (DCAS) have limitations that need to be addressed for future missions, ranging from simple orbiting satellites to Lunar or Martian expeditions.
 
-This project explores the combination of image processing and artificial intelligence (AI) to develop a real-time, autonomous debris avoidance system for spacecraft. Unlike traditional reactive systems that depend on Earth-based interventions, our approach leverages onboard AI to process visual data, make predictive decisions, and autonomously adjust the spacecraft's trajectory.
+This project explores the combination of image processing and artificial intelligence to develop a real-time, autonomous debris avoidance system for spacecrafts. Unlike traditional reactive systems that depend on Earth-based interventions, our approach leverages onboard AI to process visual data, make predictive decisions, and autonomously adjust the spacecraft's trajectory.
 
 ## Key Features
 - **Edge Detection**: Utilizes Canny or Sobel algorithms to detect object boundaries, differentiating debris from the space background.
