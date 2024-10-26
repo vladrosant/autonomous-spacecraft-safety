@@ -44,7 +44,7 @@ Validation of the proposed system is conducted through simulations using OpenCV 
 
 ## Repository Structure
 ```
- /Spacecraft-Autonomous-Debris-Avoidance-System
+/Spacecraft-Autonomous-Debris-Avoidance-System
 │
 ├── /src
 │   ├── image_processing.py
