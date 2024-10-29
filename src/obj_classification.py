@@ -1,5 +1,6 @@
 import tensorflow as tf
-from tensorflow import layers, models
+from tensorflow import keras
+from keras import layers, models
 import numpy as np
 
 def create_model():
