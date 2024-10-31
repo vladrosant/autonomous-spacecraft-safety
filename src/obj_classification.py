@@ -1,10 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
-<<<<<<< HEAD
-from keras import layers, models
-=======
 from keras import layers, models 
->>>>>>> 4ff0a1d (Implement 3 image processing methods)
 import numpy as np
 
 def create_model():
