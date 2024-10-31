@@ -3,7 +3,7 @@ import numpy as np
 import time, os, json
 
 # carrega a imagem em tons de cinza
-img = cv2.imread('src/imsample/space_debris_sample.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('src/imsample/ebris_sample_1.jpg', cv2.IMREAD_GRAYSCALE)
 if img is None:
     raise ValueError("erro no arquivo de imagem sample")
 

@@ -3,7 +3,7 @@ import numpy as np
 import time, os, json
 
 # carrega a imagem em tons de cinza
-img = cv2.imread('src/imsample/space_debris_sample.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('src/imsample/debris_sample_1.jpg', cv2.IMREAD_GRAYSCALE)
 if img is None:
     raise ValueError("erro no arquivo de imagem sample")
 
@@ -22,7 +22,7 @@ print(f"Tempo de processamento LoG: {processing_time:.4f} segundos")
 
 # \/\/\/\/ processo de gravar o tempo de performance num json \/\/\/\/
 log_file = 'src/performance_log.json'
-method_name = "LoG Edge Detection"
+method_name = "Metodo LoG"
 
 if os.path.exists(log_file):
     with open(log_file, 'r') as f:
