@@ -7,12 +7,12 @@
 **Date**: 07/11/2024
 
 ## Introduction
-As space exploration and travel rise, there is a growing need for advanced, efficient, and foolproof software to enhance the safety of both manned and unmanned missions. Existing Debris Collision Avoidance Systems (DCAS) have limitations that need to be addressed for future missions, ranging from simple orbiting satellites to Lunar or Martian expeditions.
+As space exploration and travel rise, there is a growing need for advanced, efficient, and foolproof software to enhance the safety of both manned and unmanned missions. Existing Debris Collision Avoidance Systems (DCAS) have limitations that need to be addressed for future missions, ranging from simple orbiting satellites to lunar or planetary expeditions.
 
 This project explores the combination of image processing and artificial intelligence to develop a real-time, autonomous debris avoidance system for spacecrafts. Unlike traditional reactive systems that depend on Earth-based interventions, our approach leverages onboard AI to process visual data, make predictive decisions, and autonomously adjust the spacecraft's trajectory.
 
 ## Key Features
-- **Edge Detection**: Utilizes Canny or Sobel algorithms to detect object boundaries, differentiating debris from the space background.
+- **Edge Detection**: Compares the utilization of Canny, Laplacian of Gaussian and Sobel algorithms to detect object boundaries, differentiating obstacles from the space background.
 - **Object Detection and Classification**: Employs Convolutional Neural Networks (CNNs) to classify objects based on shape, size, and velocity.
 - **Optical Flow**: Analyzes pixel movement across sequential images to track debris motion, predicting future paths.
 
@@ -49,17 +49,17 @@ Validation of the proposed system is conducted through simulations using OpenCV 
 /Spacecraft-Autonomous-Debris-Avoidance-System
 │
 ├── /src
-│   ├── image_processing.py
-│   ├── ai_models.py
-│   ├── simulation.py
-│   └── utils.py
+│   ├── image_processing_methods.py
+│   ├── performance_log.json
+│   ├── /imoutput
+│   └── /imsample
 │
 ├── /data
-│   ├── training_data/
-│   └── test_data/
+│   ├── training_data/ # WiP
+│   └── test_data/     # WiP
 │
 ├── /docs
-│   └── project_report.pdf
+│   └── project.pdf    # WiP
 │
 └── README.md
 ```
@@ -73,5 +73,5 @@ To run the simulations and models, follow these steps:
     ```
 3. Execute the main script:
     ```sh
-    python src/simulation.py
+    echo 'wait for me to finish the project'
     ```
