@@ -1,9 +1,8 @@
-import cv2
+import cv2, time, os, json
 import numpy as np
-import time, os, json
 
 # carrega a imagem em tons de cinza
-img = cv2.imread('src/imsample/debris_sample_1.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('src/imsample/debris_sample_2.jpg', cv2.IMREAD_GRAYSCALE)
 if img is None:
     raise ValueError("erro no arquivo de imagem sample")
 

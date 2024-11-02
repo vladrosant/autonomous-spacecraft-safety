@@ -1,26 +1,29 @@
-import cv2
-import numpy as np
-import time, os, json
+import cv2, time, os, json
 
 # carrega a imagem em tons de cinza
-img = cv2.imread('src/imsample/ebris_sample_1.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('src/imsample/debris_sample_2.jpg', cv2.IMREAD_GRAYSCALE)
 if img is None:
     raise ValueError("erro no arquivo de imagem sample")
 
 # comeca o timer para analise de performance
 start_time = time.time()
 
+# gamma = 0.7  
+# img = img / 255.0
+# img = np.power(img, gamma) * 255
+# img = img.astype(np.uint8)
+
 # aplicacao de blur Gaussiano para diminuir o ruido
 blurred_img = cv2.GaussianBlur(img, (5, 5), 0)
 
-canny_edges = cv2.Canny(blurred_img, 100, 200)
+canny_edges = cv2.Canny(img, 100, 200)
 
 processing_time = time.time() - start_time
 print(f"Tempo de processamento para Canny: {processing_time:.4f} segundos")
 
 # \/\/\/\/ processo de gravar o tempo de performance num json \/\/\/\/
 log_file = 'src/performance_log.json'
-method_name = "Metodo Canny"
+method_name = "Metodo Canny otimizado"
 
 if os.path.exists(log_file):
     with open(log_file, 'r') as f:
