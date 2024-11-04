@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 
 # carrega json com os dados
-with open('src/performance_log.json', 'r') as f:
+with open('docs/performance_log.json', 'r') as f:
     log_data = json.load(f)
 
 # calcula a media de cada um dos metodos
