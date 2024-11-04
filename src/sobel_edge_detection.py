@@ -21,7 +21,7 @@ processing_time = time.time() - start_time
 print(f"Tempo de processamento Sobel: {processing_time:.4f} segundos")
 
 # \/\/\/\/ processo de gravar o tempo de performance num json \/\/\/\/
-log_file = 'src/performance_log.json'
+log_file = 'docs/performance_log.json'
 method_name = "Metodo Sobel"
 
 if os.path.exists(log_file):
