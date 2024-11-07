@@ -1,6 +1,3 @@
-# Can this c ode properly be executed as a script to simulate movements using Gazebo Ionic?
-# walk me through, in deep detail, how to create a ROS package and to add the necessary dependancies in the package.xml and CMakeLists.txt. After that run me through how to create the launch file aswell. I am completely new to Gazebo and ROS, so I am completely unaware of how do do anything
-
 import cv2, time, os, json
 import numpy as np
 
