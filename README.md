@@ -1,10 +1,6 @@
 # Spacecraft Autonomous Debris Avoidance System
 
-**work in progress**
-
-**Author**: Pedro H. F. Santana  
-**Institution**: Universidade Paulista  
-**Date**: 07/11/2024
+**everything is still a work in progress**
 
 ## Introduction
 As space exploration and travel rise, there is a growing need for advanced, efficient, and foolproof software to enhance the safety of both manned and unmanned missions. Existing Debris Collision Avoidance Systems (DCAS) have limitations that need to be addressed for future missions, ranging from simple orbiting satellites to lunar or planetary expeditions.
