@@ -1,11 +1,10 @@
-# Spacecraft Autonomous Debris Avoidance System
+# Autonomous Spacecraft Safety
 
 **everything is still a work in progress**
 
 ## Introduction
-As space exploration and travel rise, there is a growing need for advanced, efficient, and foolproof software to enhance the safety of both manned and unmanned missions. Existing Debris Collision Avoidance Systems (DCAS) have limitations that need to be addressed for future missions, ranging from simple orbiting satellites to lunar or planetary expeditions.
-
-This project explores the combination of image processing and artificial intelligence to develop a real-time, autonomous debris avoidance system for spacecrafts. Unlike traditional reactive systems that depend on Earth-based interventions, our approach leverages onboard AI to process visual data, make predictive decisions, and autonomously adjust the spacecraft's trajectory.
+Autonomous Spacecraft Safety, or ASS for short, is a study developed to control spacecrafts autonomously. Safely.
+The project is a combination of image processing and AI.
 
 ## Key Features
 - **Edge Detection**: Compares the utilization of Canny, Laplacian of Gaussian and Sobel algorithms to detect object boundaries, differentiating obstacles from the space background.
