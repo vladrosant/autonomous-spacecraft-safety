@@ -3,7 +3,7 @@
 **this is an ever work in progress**
 
 ## Introduction
-Autonomous Spacecraft Safety, or ASS for short, is a study created to developed to control spacecrafts autonomously. Safely.
+ASS is a study created to developed to control spacecrafts autonomously. Safely.
 The project is a combination of image processing and AI.
 
 ## Key Features
@@ -19,17 +19,10 @@ The project is a combination of image processing and AI.
 ## Redundancy and Failure Handling
 To ensure robustness, the system incorporates a fault-tolerant control strategy that adjusts movements based on operational thrusters. AI models trained with simulated failures ensure that the spacecraft can safely maneuver even with partial system failures.
 
-## Comparison of Approaches
-| Method                  |
-|-------------------------|
-| DCAS (Radar-based)      |
-| AI + Image Processing   |
-| Lidar-based             |
-
-## Simulation and Testing
+## Planned Simulation and Testing
 Validation of the proposed system is conducted through simulations using OpenCV for real-time image processing and TensorFlow for AI modeling. A test environment in Gazebo simulates various debris fields, spacecraft trajectories, and failure modes.
 
-### Planned Simulation Details
+### Simulation Details
 - Varying densities and velocities of debris.
 - Measurements of response time, energy efficiency, and collision avoidance accuracy.
 - Redundancy tests by disabling thrusters and sensors to observe AI adaptation.
